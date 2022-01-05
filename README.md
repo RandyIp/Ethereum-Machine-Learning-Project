@@ -56,3 +56,15 @@ This will be a very brief summary of how the simulations work, the finer details
 ![image](https://user-images.githubusercontent.com/85899973/148285469-f0b557d5-3666-4e35-a710-247daa522762.png)
 ![image](https://user-images.githubusercontent.com/85899973/148285528-a13bf9de-e43b-44e7-a893-df214c147d18.png)
 
+So the simulation looks somewhat similar to real base fee. One interesting property is that the spikes going upward tend to be really sharp and take only a couple of blocks while spikes going downwards are fatter and takes more blocks to occur. Finally, I use an ARIMA model to compare the two time series. 
+
+# ARIMA 
+ Below are the PCAF and ACF graphs which suggest parameters of p=2, d=0 and q=0. 
+ ![image](https://user-images.githubusercontent.com/85899973/148285951-9057cd32-d52a-4aae-85f3-c6d025852548.png)
+ ![image](https://user-images.githubusercontent.com/85899973/148285965-d4025a37-fefd-4d88-b7ff-5b2a3d4115a0.png)
+ ![image](https://user-images.githubusercontent.com/85899973/148285992-924b730e-8d29-425f-a7ca-4f2c7913f36e.png)
+ ![image](https://user-images.githubusercontent.com/85899973/148286007-701f15db-dae2-47be-9611-8befc07e8103.png)
+
+
+
+
