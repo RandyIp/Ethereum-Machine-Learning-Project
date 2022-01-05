@@ -1,5 +1,3 @@
-# Ethereum Simulation Analysis
-
 # Goal
 Ethereum introduced EIP 1559 which brought many changes to how ethereum worked. One of the big changes was that transactions included a basefee. Since there were already assumptions about how basefee might behave, simulations could be created and compared to actual basefee behavior to try and verify if the original assumptions were correct. Interestingly enough, aside from verifying assumptions, many other discoveries were found in the simulation analysis. 
 
