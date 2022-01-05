@@ -5,4 +5,5 @@ Ethereum introduced EIP 1559 which brought many changes to how ethereum worked. 
 
 # Assumptions 
 * Variables that we wanted to model were demand, valuation and gas used 
-* Base follows the following update function which will be explained later: <img src="https://latex.codecogs.com/svg.image?b_{n&plus;1}=b_n(1&plus;\frac{1}{d}*\frac{g_n-g_{target}}{g_{target}})" title="b_{n+1}=b_n(1+\frac{1}{d}*\frac{g_n-g_{target}}{g_{target}})" />
+* Base follows the following update function which will be explained later: 
+<img src="https://latex.codecogs.com/svg.image?b_{n&plus;1}=b_n(1&plus;\frac{1}{d}*\frac{g_n-g_{target}}{g_{target}})" title="b_{n+1}=b_n(1+\frac{1}{d}*\frac{g_n-g_{target}}{g_{target}})" />
