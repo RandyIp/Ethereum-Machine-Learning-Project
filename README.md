@@ -41,5 +41,15 @@ Above is a histogram of how much gas is used per transaction. Notably, it doesn'
 
 # Base Fee Update
 As mentioned earlier, the base fee update formula is: 
+
 <img src="https://latex.codecogs.com/svg.image?b_{n&plus;1}=b_n(1&plus;\frac{1}{d}*\frac{g_n-g_{target}}{g_{target}})" title="b_{n+1}=b_n(1+\frac{1}{d}*\frac{g_n-g_{target}}{g_{target}})" />
+* b=base fee
+* d=learning rate
+* g=gas used
+What the formula is saying is that the next base fee will increase or decrease if gas used is higher or lower than target gas used respectively. Simply, if demand increases then base fee increases. Target gas used is 15 million which was set by Ethereum. D is the learning rate, this is to help prevent sudden spikes in base fee. 
+
+# Simulation 
+This will be a very brief summary of how the simulations work, the finer details can be found in the code. Basically, now that I have a model for how full blocks will be and how much users will bid for their transactions, I can simulate blocks and fill them with transactions. This also means that I can simulate how the base fee behaves. 
+![image](https://user-images.githubusercontent.com/85899973/148277924-20308529-0464-4f05-9de9-0c7b1cd64ad5.png)
+![image](https://user-images.githubusercontent.com/85899973/148277937-0fcb082c-3b7d-43cd-8285-0f6396470988.png)
 
