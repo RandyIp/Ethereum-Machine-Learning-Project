@@ -27,4 +27,6 @@ Disclaimer: When modelling valuations, I used a Gamma distribution, this was to 
 
 ![image](https://user-images.githubusercontent.com/85899973/148273751-54cb3bd0-6d02-4bb7-b0c9-faf089ccf935.png)
 ![image](https://user-images.githubusercontent.com/85899973/148273775-0d8185b3-f25d-46cc-aaf2-967b8b7e73cd.png)
+![image](https://user-images.githubusercontent.com/85899973/148273860-a9d84517-f2b9-4956-a3b7-1cf778d87853.png)
+![image](https://user-images.githubusercontent.com/85899973/148273877-f116e9c1-b27b-476a-ad33-7955245ab246.png)
 
