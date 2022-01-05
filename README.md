@@ -50,6 +50,7 @@ What the formula is saying is that the next base fee will increase or decrease i
 
 # Simulation 
 This will be a very brief summary of how the simulations work, the finer details can be found in the code. Basically, now that I have a model for how full blocks will be and how much users will bid for their transactions, I can simulate blocks and fill them with transactions. This also means that I can simulate how the base fee behaves. 
-![image](https://user-images.githubusercontent.com/85899973/148277924-20308529-0464-4f05-9de9-0c7b1cd64ad5.png)
-![image](https://user-images.githubusercontent.com/85899973/148277937-0fcb082c-3b7d-43cd-8285-0f6396470988.png)
+
+![image](https://user-images.githubusercontent.com/85899973/148283437-2d3bc212-aeeb-4372-939d-bb253d30a6be.png)
+![image](https://user-images.githubusercontent.com/85899973/148285391-4ab05863-7d98-4abf-b6cd-103ae967351f.png)
 
