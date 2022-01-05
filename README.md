@@ -60,6 +60,7 @@ So the simulation looks somewhat similar to real base fee. One interesting prope
 
 # ARIMA 
  Below are the PCAF and ACF graphs which suggest parameters of p=2, d=0 and q=0. 
+ 
  ![image](https://user-images.githubusercontent.com/85899973/148285951-9057cd32-d52a-4aae-85f3-c6d025852548.png)
  ![image](https://user-images.githubusercontent.com/85899973/148285965-d4025a37-fefd-4d88-b7ff-5b2a3d4115a0.png)
  ![image](https://user-images.githubusercontent.com/85899973/148285992-924b730e-8d29-425f-a7ca-4f2c7913f36e.png)
