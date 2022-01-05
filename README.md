@@ -66,6 +66,18 @@ So the simulation looks somewhat similar to real base fee. One interesting prope
  ![image](https://user-images.githubusercontent.com/85899973/148285992-924b730e-8d29-425f-a7ca-4f2c7913f36e.png)
  ![image](https://user-images.githubusercontent.com/85899973/148286007-701f15db-dae2-47be-9611-8befc07e8103.png)
 
+Then below are the graphs of the residuals: 
+
+![image](https://user-images.githubusercontent.com/85899973/148286171-1de99bc3-c92a-4fe6-a2a5-dbb3f5af3673.png)
+![image](https://user-images.githubusercontent.com/85899973/148286184-b658fafc-eb94-421f-83a5-3fe4f3edd7a8.png)
+![image](https://user-images.githubusercontent.com/85899973/148286202-a6d997d5-1694-42c6-bc49-3063b7a3a414.png)
+![image](https://user-images.githubusercontent.com/85899973/148286212-376a2190-e29a-4e75-95bb-58011f605242.png)
+
+So it looks like the ARIMA models aren't fitted perfectly to the time series but an interesting note is that the ARIMA models tend to underpredict the base fee more often than overpredict. This is likely due to the sudden sharp spikes which I think is caused by the idea that there are two distributions of users, low and high valuation users. In the simulation formula, inclusion of high valuation users always increases the base fee whereas low valuation users do not neccesarily decrease the base fee. 
+
+# Conclusion 
+Overall, improvements can be made to the simulation but it was able to generate ARIMA models with similar parameters to the ARIMA model for real base fee data. Going forward, I think the main way to improve this simulation is if there was a variable to distinguish low valuation and high valuation users. 
+
 
 
 
