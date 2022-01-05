@@ -30,3 +30,16 @@ Disclaimer: When modelling valuations, I used a Gamma distribution, this was to 
 ![image](https://user-images.githubusercontent.com/85899973/148273860-a9d84517-f2b9-4956-a3b7-1cf778d87853.png)
 ![image](https://user-images.githubusercontent.com/85899973/148273877-f116e9c1-b27b-476a-ad33-7955245ab246.png)
 
+Above are the histograms of gamma distributions that were fitted to the valuation and the QQ plots of the gamma distributions. The QQ plots aren't quite a perfect fit but they are pretty close. The parameters of the low valuation gamma distribution are k=59.6849 and theta=0.0105. The parameters of the high valuation gamma distribution are k=52.1001 and theta=0.0185. The parameters were solved for by using maximum likelihood estimator. 
+
+# Gas Used 
+Definition: Gas is how complex a transaction is to be included into a blockchain. While not strictly true, it is a good proxy as a metric for demand. 
+
+![image](https://user-images.githubusercontent.com/85899973/148276918-29610257-e6ed-44b2-bb71-20890e65b8db.png)
+
+Above is a histogram of how much gas is used per transaction. Notably, it doesn't really look like any named distribution but that's ok. In this case, I simply bootstrapped the gas used in order to use it in the simulation. 
+
+# Base Fee Update
+As mentioned earlier, the base fee update formula is: 
+<img src="https://latex.codecogs.com/svg.image?b_{n&plus;1}=b_n(1&plus;\frac{1}{d}*\frac{g_n-g_{target}}{g_{target}})" title="b_{n+1}=b_n(1+\frac{1}{d}*\frac{g_n-g_{target}}{g_{target}})" />
+
