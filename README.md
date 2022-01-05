@@ -53,4 +53,6 @@ This will be a very brief summary of how the simulations work, the finer details
 
 ![image](https://user-images.githubusercontent.com/85899973/148283437-2d3bc212-aeeb-4372-939d-bb253d30a6be.png)
 ![image](https://user-images.githubusercontent.com/85899973/148285391-4ab05863-7d98-4abf-b6cd-103ae967351f.png)
+![image](https://user-images.githubusercontent.com/85899973/148285469-f0b557d5-3666-4e35-a710-247daa522762.png)
+![image](https://user-images.githubusercontent.com/85899973/148285528-a13bf9de-e43b-44e7-a893-df214c147d18.png)
 
